@@ -3,7 +3,7 @@
 
 //
 extern crate test;
-mod multiply_shift;
+//mod multiply_shift;
 
 use regex::Regex;
 use std::fs::File;
