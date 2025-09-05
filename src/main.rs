@@ -533,11 +533,6 @@ mod xxh3 {
 mod fnv {
     hash_benches! {Fnv}
 }
-#[cfg(test)]
-mod horner {
-    use crate::multiply_shift::HornerHasher;
-    hash_benches! {HornerHasher}
-}
 
 // one day?
 
